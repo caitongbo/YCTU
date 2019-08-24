@@ -1,0 +1,28 @@
+{
+    "tagsList": [
+        {
+            "href": "http://jwgl.caitongbo.com",
+            "title": "教务网"
+        },
+        {
+            "href": "http://ehall.yctu.edu.cn",
+            "title": "智慧盐师"
+        },
+        {
+            "href": "http://ecard.yctu.edu.cn",
+            "title": "一卡通"
+        },
+        {
+            "href": "http://lib.yctc.edu.cn",
+            "title": "图书馆"
+        },
+        {
+            "href": "http://hqbx.yctu.edu.cn",
+            "title": "后勤报修"
+        },
+        {
+            "href": "http://bylw.caitongbo.com",
+            "title": "毕业论文"
+        }
+    ]
+}

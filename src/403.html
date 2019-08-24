@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <title>403 - 教务在线</title>
+    <link href="static/app.css" rel="stylesheet">
+    <style>
+        .main-box .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-box .host-name {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        .main-box .error-403 {
+            font-size: 22px;
+            line-height: 1.75;
+            padding: 0 30px;
+        }
+        .main-box .black-list {
+            border-bottom: 1px dashed #fff;
+        }
+        .main-box .return-btn {
+            margin: 30px;
+            border: 1px solid #fff;
+            font-size: 16px;
+            padding: 6px 14px;
+            border-radius: 3px;
+            transition: .25s ease-in-out;
+        }
+        .main-box .return-btn:hover {
+            border-color: transparent;
+            background: rgba(255,255,255,.4);
+        }
+    </style>
+</head>
+<body>
+<img id="wallpaper" src="//www.caitongbo.com/bing.php">
+<div class="black_overlay"></div>
+<div class="main-box">
+    <div class="content">
+        <p class="host-name"></p>
+        <p class="error-403">该网站未列为教务在线<span class="black-list">白名单</span>，无法通过外网访问。</p>
+        <a class="return-btn" href="//yctu.caitongbo.com">返回首页</a>
+    </div>
+</div>
+<footer>
+    <div id="tome" class="about"><a target="_blank" href="//www.caitongbo.com">@ Tongbo Cai </a></div>
+</footer>
+<!--CNZZ统计-->
+<script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1277952990&web_id=1277952990"></script>
+<script>
+    (function(){
+        var hash = location.hash,
+            hostname = hash.split('#')[1];
+        document.querySelector('.host-name').innerHTML = '[ <a href="http://'+hostname+'">'+hostname+'</a> ]';
+    })();
+</script>
+</body>
+</html>
