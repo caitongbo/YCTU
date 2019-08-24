@@ -1,6 +1,6 @@
 ## 教务在线 | YCTU
 
-##### 地址：https://jwgl.caitongbo.com
+##### 地址：https://yctu.caitongbo.com
 ##### 统计：http://new.cnzz.com/v1/login.php?siteid=1277952990
 
 ### 项目目录
