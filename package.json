@@ -1,7 +1,7 @@
 {
   "name": "yctu.caitongbo.com",
   "version": "1.0.0",
-  "description": "内网外入",
+  "description": "教务在线",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack -p",
